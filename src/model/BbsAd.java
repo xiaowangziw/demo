@@ -13,7 +13,10 @@ import java.math.BigInteger;
 @Table(name="bbs_ad")
 @NamedQuery(name="BbsAd.findAll", query="SELECT b FROM BbsAd b")
 public class BbsAd implements Serializable {
-	private String demomeomeo;
+	private String test;
+	private String demo;
+	private String test2;
+	private String demo3;
 	private static final long serialVersionUID = 1L;
 
 	@Id
