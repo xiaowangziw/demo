@@ -14,6 +14,7 @@ import java.math.BigInteger;
 @NamedQuery(name="BbsAd.findAll", query="SELECT b FROM BbsAd b")
 public class BbsAd implements Serializable {
 	private String test;
+	private String demo;
 	private static final long serialVersionUID = 1L;
 
 	@Id
